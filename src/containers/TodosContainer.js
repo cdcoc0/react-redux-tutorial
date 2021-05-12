@@ -46,7 +46,7 @@ const TodosContainer = () => { //{input, todos, changeInput, insert, toggle, rem
 //     }
 // });
 
-export default TodosContainer;
+export default React.memo(TodosContainer);
 
 // export default connect(
 //     mapStateToProps,
